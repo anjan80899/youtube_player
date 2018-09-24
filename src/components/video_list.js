@@ -6,16 +6,18 @@ const VideoList = (props) => {
     const videoItems=props.videos.map((video)=>{
         return(
             <VideoListItem
-            onUserSelected={props.onVideoSelect}
+            
                 key={video.etag}
                 video={video} />
         );
     });
 
     return(
+        <div className='video-list'>
         <ul className="col-md-4 list-group">
         {videoItems}
         </ul>
+        </div>
     );
 };
 

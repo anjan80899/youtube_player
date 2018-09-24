@@ -26,4 +26,16 @@
  .list-group-item:hover{
      background-color: #eee;
  }
+ .video-body{
+     display: inline-block;
+ }
  
+ .video-list{
+     width:30%;
+     height: 100%;
+     
+     display: inline-block;
+ }
+ .item-body{
+     display: inline-block;
+ }
